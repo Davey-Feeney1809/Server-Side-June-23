@@ -1,0 +1,13 @@
+<h2> Trips :{{trip.name}}</h2>
+<h3>Location : {{person.Location}}</h3>
+{{#if person.population}}
+<h3>Population : {{person.population}}</h3>
+{{/if}}
+<img src={{place.imageurl}} alt="photo of the place">
+
+<a href='{{trip.name}}/edit'>
+<button type="button" class="btn btn-primary">Edit</button></a>
+
+<a href='/book/{{trip.name}}/delete'
+ onclick="return confirm('are you sure you want to delete this trip?');">
+<button type="button" class="btn btn-danger">Delete</button> </a>
