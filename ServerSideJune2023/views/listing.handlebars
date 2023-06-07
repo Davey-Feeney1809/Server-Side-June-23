@@ -1,0 +1,10 @@
+<h1>My Trips</h1>
+
+<ol>
+  {{#each personlist}}
+    <li><a href="/trips/{{this.name}}">
+    {{!--  ^^^^^  check DB/Model or console.log to see the object and its attributes (County, Location, Population)--}}
+      {{this.County}}</a></li>
+</li>
+  {{/each}}
+</ol>

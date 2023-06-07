@@ -1,0 +1,29 @@
+<form method="POST">
+
+    <div class="form-group">
+        <label for='name'>Trip</label>
+        <input type=text id='name' name='name' class='form-control'>
+    </div>
+    <div class="form-group">
+        <label for='Author'>Location</label>
+        <input type=text id='Location' name='Location' class='form-control'>
+    </div>
+
+
+    <div class="form-group">
+        <label for='published'>Population</label>
+        <input type=text id='population' name='population' class='form-control'>
+    </div>
+    <button type=submit class="btn btn-primary">Edit Trip</button>
+
+
+{{!-- This hidden element lets us use the document id --}}
+    <input type="hidden" id="id" name="_id" value="{{trip._id}}" />
+    <button type=submit class="btn btn-primary">Save Changes</button>
+
+      <a href='/book/{{person.name}}'><button type=button class="btn btn-outline-danger">Cancel</button>
+      </a> 
+    </div>
+
+</form>
+

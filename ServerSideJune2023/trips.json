@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "630f786ff58ad30434c834fd"
+  },
+  "County": "Dublin",
+  "Location": "Lenister",
+  "Population": "1,270,172",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64775761f37373548d6ad348"
+  },
+  "County": "Belfast",
+  "Location": "Ulster",
+  "Population": "634,005",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647757bff37373548d6ad349"
+  },
+  "County": "Cork",
+  "Location": "Munster",
+  "Population": "223,657",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647757f5f37373548d6ad34a"
+  },
+  "County": "Limerick",
+  "Location": "Munster",
+  "Population": "90,781",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647f3f18fff1585b349cc2b5"
+  },
+  "Location": "Leinster",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647f3f1efff1585b349cc2bc"
+  },
+  "Location": "Leinster",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647f4077fff1585b349cc2d7"
+  },
+  "Location": "Leinster",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647f411dfff1585b349cc2e7"
+  },
+  "Location": "Leinster",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "647f8363733c7a3fd3a420d2"
+  },
+  "Location": "Leinster",
+  "__v": 0
+}]
