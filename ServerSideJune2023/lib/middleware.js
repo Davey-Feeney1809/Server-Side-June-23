@@ -1,5 +1,4 @@
-
-const     flashMiddleware = (req, res, next) => {
+const flashMiddleware = (req, res, next) => {
     // if there's a flash message, transfer
     // it to the context, then clear it
     res.locals.flash = req.session.flash
@@ -7,4 +6,4 @@ const     flashMiddleware = (req, res, next) => {
     next()
 }
 
-module.exports = {flashMiddleware: flashMiddleware }
+module.exports = { flashMiddleware: flashMiddleware }
